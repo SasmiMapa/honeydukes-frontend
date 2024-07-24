@@ -1,0 +1,17 @@
+export const cuisineList = [
+  "Albanian",
+  "American",
+  "Brazilian",
+  "British",
+  "Bulgarian",
+  "Chinese",
+  "French",
+  "Indian",
+  "Irish",
+  "Italian",
+  "Japanese",
+  "Mexican",
+  "Romanian",
+  "Spanish",
+  "Ugandan",
+];
