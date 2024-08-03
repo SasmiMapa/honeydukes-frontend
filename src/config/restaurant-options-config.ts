@@ -10,6 +10,7 @@ export const cuisineList = [
   "Irish",
   "Italian",
   "Japanese",
+  "Kenyan",
   "Mexican",
   "Romanian",
   "Spanish",
