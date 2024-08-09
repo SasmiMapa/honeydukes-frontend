@@ -51,7 +51,7 @@ const OrderSummary = ({ restaurant, cartItems, removeFromCart }: Props) => {
           </div>
         ))}
         <Separator />
-        <div className="flex justiify-between">
+        <div className="flex justify-between">
           <span>Delivery</span>
           <span>£{(restaurant.deliveryPrice / 100).toFixed(2)}</span>
         </div>

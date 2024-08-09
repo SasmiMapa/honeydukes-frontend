@@ -11,6 +11,7 @@ import { Separator } from "./ui/separator";
 import { Button } from "./ui/button";
 
 const UsernameMenu = () => {
+  const CALLBACK_URL = import.meta.env.VITE_AUTH0_CALLBACK_URL;
   const { user, logout } = useAuth0();
 
   return (
@@ -36,7 +37,7 @@ const UsernameMenu = () => {
         <Separator />
         <DropdownMenuItem>
           <Button
-            onClick={() => logout()}
+            onClick={() => logout({ logoutParams: { returnTo: CALLBACK_URL } })}
             className="flex flex-1 font-bold bg-[#ca8a04]"
           >
             Log Out
