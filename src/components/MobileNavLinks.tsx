@@ -13,6 +13,12 @@ const MobileNavLinks = () => {
         User Profile
       </Link>
       <Link
+        to="/order-status"
+        className="flex bg-white items-center font-bold hover:text-[#ca8a04]"
+      >
+        Order Status
+      </Link>
+      <Link
         to="/manage-restaurant"
         className="flex bg-white items-center font-bold hover:text-[#ca8a04]"
       >
