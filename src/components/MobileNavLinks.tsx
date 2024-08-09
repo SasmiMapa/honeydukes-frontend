@@ -4,6 +4,7 @@ import { useAuth0 } from "@auth0/auth0-react";
 
 const MobileNavLinks = () => {
   const { logout } = useAuth0();
+  const CALLBACK_URL = import.meta.env.VITE_AUTH0_CALLBACK_URL;
   return (
     <>
       <Link
@@ -25,7 +26,7 @@ const MobileNavLinks = () => {
         My Restaurant
       </Link>
       <Button
-        onClick={() => logout()}
+        onClick={() => logout({ logoutParams: { returnTo: CALLBACK_URL } })}
         className="flex items-center px-3 font-bold hover:bg-[#ca8a04]"
       >
         Log Out
