@@ -1,30 +1,26 @@
-# React + TypeScript + Vite
+# Honeydukes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to Honeydukes! This Harry Potter themed food ordering web app is built using the MERN stack (MongoDB, Express.js, React.js, Node.js) and allows users to create accounts, manage restaurants, browse available restaurants, place orders, and track their orders in real-time.
 
-Currently, two official plugins are available:
+## Available cities to browse
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Scottish Highlands**
+- **Pyrenees**
+- **Amazon**
+- **Minami Iwo Jima**
+- **Mount Greylock**
+- **Luna Mountains**
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **User Authentication:** Create and manage user accounts with secure authentication.
+- **Restaurant Management:** Add, edit, and delete restaurants. Manage restaurant details and menu items.
+- **Browse Restaurants:** View a list of available restaurants with their menus.
+- **Place Orders:** Select menu items from restaurants and place orders.
+- **Real-Time Order Tracking:** Track the status of your orders in real time.
 
-- Configure the top-level `parserOptions` property like this:
+## Tech Stack
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- **Frontend:** React.js
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB
